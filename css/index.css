@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+  font-weight: normal;
+  font-family: sans-serif;
+}
+body {
+  margin: 0;
+  padding: 20px 50px;
+}
+nav,
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items {
+  width: 50%;
+  justify-content: center;
+}
+.nav-item {
+  font-size: large;
+  margin: 0 1.5em;
+}
+.nav-items .nav-item:first-child {
+  color: #fe5e35;
+  font-family: "Fredoka One";
+}
+nav img:first-child {
+  width: 9%;
+}
+
+/* --------------------------  intro section -------------------------- */
+
+.intro-section {
+  display: flex;
+}
+/* ----------------- left section ---------------- */
+.left-section {
+  width: 50%;
+}
+.left-section h3:first-child {
+  font-size: xx-large;
+  position: relative;
+}
+.left-section > h3 > img {
+  width: 9%;
+}
+.left-section > h1 {
+  font-size: 3.4rem;
+  font-family: "Fredoka One";
+}
+.sub-headlines {
+  padding-left: 4rem;
+}
+.sub-headline {
+  display: flex;
+  align-items: center;
+  font-size: large;
+}
+.sub-headline img {
+  border-radius: 50%;
+  width: 4.5%;
+  background-color: #fe5e35;
+  padding: 5px;
+  margin-right: 10px;
+}
+.text {
+  font-size: small;
+  color: #e4e4e4;
+}
+.action-btns {
+  padding: 20px 0;
+}
+
+.action-btn {
+  border: none;
+  border-radius: 20px;
+  background-color: #fe5e35;
+  color: #ffffff;
+  font-family: "Fredoka One";
+  padding: 12px 28px;
+}
+.action-btns .action-btn:last-child {
+  margin-left: 1.2em;
+}
+
+/* ----------------- right section ------------------- */
+.right-section {
+  width: 35%;
+  margin-left: 1em;
+}
+.headphone-div {
+  padding: 12px 0;
+  position: relative;
+}
+.discount,
+.discount-content {
+  position: absolute;
+  color: #ffffff;
+}
+.discount {
+  width: 28%;
+  left: -8%;
+  bottom: 16%;
+}
+.discount-content {
+  left: -2%;
+  bottom: 17.5%;
+}
+.discount-content h4,
+.discount-content h1 {
+  font-family: "Fredoka One";
+}
+
+.discount-content h4 {
+  margin-bottom: -1.5em;
+  font-size: small;
+  text-align: center;
+}
+
+.headphone-div img:last-child {
+  width: 95%;
+}
+.dots {
+  display: flex;
+  background-color: #fff;
+  padding: 1.8em 30%;
+  padding-top: 0;
+}
+
+.dot {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin: 0 0.7em;
+}
+.yellow-dot {
+  background-color: #fbd104;
+}
+.tomato-dot {
+  background: #fe5e35;
+}
+.black-dot {
+  background: #000000;
+}
+
+.right-section .action-btn {
+  margin-left: 32%;
+}
