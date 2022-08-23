@@ -5,7 +5,7 @@
 }
 body {
   margin: 0;
-  padding: 20px 50px;
+  padding: 20px 40px;
 }
 nav,
 .nav-items {
@@ -29,122 +29,127 @@ nav,
 nav img:first-child {
   width: 9%;
 }
+.hamburger-menu{
+  display: none;
+}
 
-/* --------------------------  intro section -------------------------- */
+/* -------------------------- section -------------------------- */
 
-.intro-section {
+section{
   display: flex;
-}
-/* ----------------- left section ---------------- */
-.left-section {
-  width: 50%;
-}
-.left-section h3:first-child {
-  font-size: xx-large;
-  position: relative;
-}
-.left-section > h3 > img {
-  width: 9%;
-}
-.left-section > h1 {
-  font-size: 3.4rem;
-  font-family: "Fredoka One";
-}
-.sub-headlines {
-  padding-left: 4rem;
-}
-.sub-headline {
-  display: flex;
-  align-items: center;
-  font-size: large;
-}
-.sub-headline img {
-  border-radius: 50%;
-  width: 4.5%;
-  background-color: #fe5e35;
-  padding: 5px;
-  margin-right: 10px;
-}
-.text {
-  font-size: small;
-  color: #e4e4e4;
-}
-.action-btns {
   padding: 20px 0;
 }
 
-.action-btn {
-  border: none;
-  border-radius: 20px;
-  background-color: #fe5e35;
-  color: #ffffff;
-  font-family: "Fredoka One";
-  padding: 12px 28px;
+/* ----------------- left section ---------------- */
+
+.left-section{
+ width: 75%;
 }
-.action-btns .action-btn:last-child {
-  margin-left: 1.2em;
+.left-section div:first-child{
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.left-section div:first-child img{
+  width: 2.2em;
 }
 
-/* ----------------- right section ------------------- */
-.right-section {
-  width: 35%;
-  margin-left: 1em;
+.heading{
+  font-size: 3.5rem;
+  font-family: "Fredoka one";
 }
-.headphone-div {
-  padding: 12px 0;
+
+.list{
+  list-style: none;
+}
+.list li{
+  font-size: 1.3rem;
+  margin: 1em 0;
+}
+.plus-img{
+width: 1.2em;
+ background: #FE5E35;
+ border-radius: 50%;
+ vertical-align: middle;
+ padding: 4px;
+ margin-right: 12px;
+}
+
+.text{
+  padding: 15px 10px;
+}
+
+/* ------------------ right-section --------------------- */
+
+.right-section div:first-child{
+  padding:0 20px;
+}
+
+.headphone-img{
+  width: 100%;
+  display: block;
+}
+
+.right-section:first-child{
   position: relative;
 }
-.discount,
-.discount-content {
+
+.discount-tag,.discount,.discount-percent{
   position: absolute;
-  color: #ffffff;
+  top: 56%;
+  font-family: "Fredoka one";
+  right:31%;
+  color: #fff;
 }
-.discount {
-  width: 28%;
-  left: -8%;
-  bottom: 16%;
+.discount-tag img{
+  width:80%;
 }
-.discount-content {
-  left: -2%;
-  bottom: 17.5%;
+.discount{
+ font-size: small;
+ right: 45%;
+ top: 15%;
 }
-.discount-content h4,
-.discount-content h1 {
-  font-family: "Fredoka One";
-}
-
-.discount-content h4 {
-  margin-bottom: -1.5em;
-  font-size: small;
-  text-align: center;
+.discount-percent{
+  font-size: 3rem;
+  top: 8%;
 }
 
-.headphone-div img:last-child {
-  width: 95%;
-}
-.dots {
+.dots{
   display: flex;
-  background-color: #fff;
-  padding: 1.8em 30%;
-  padding-top: 0;
+  justify-content: center;
 }
 
-.dot {
-  border-radius: 50%;
+.dots span{
   width: 20px;
   height: 20px;
-  margin: 0 0.7em;
-}
-.yellow-dot {
-  background-color: #fbd104;
-}
-.tomato-dot {
-  background: #fe5e35;
-}
-.black-dot {
-  background: #000000;
+  border-radius: 50%;
+  margin: 0 1em;
 }
 
-.right-section .action-btn {
-  margin-left: 32%;
+.dot-yellow{
+  background-color: #FBD104;
+}
+.dot-orange{
+  background-color: #FE5E35;
+}
+.dot-black{
+  background-color: #000;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+}
+.buttons button{
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  background-color: #FE5E35;
+  font-weight: 700;
+  padding: 10px 20px;
+}
+.buttons div:first-child button{
+  margin: 0 10px;
+}
+.buttons > button{
+  margin-right: 14em;
 }

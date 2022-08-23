@@ -1,0 +1,88 @@
+@media screen and (max-width:992px) {
+    section{
+        flex-direction: column-reverse;
+    }
+    .right-section{
+        width: 60%;
+        margin: auto;
+    }
+    .left-section{
+        width: 100%;
+        margin:1em auto;
+    }
+    .buttons{
+        flex-direction: row;
+    }
+    .buttons > button{
+         margin-right: 0;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .right-section{
+        width: 80%;
+    }
+    .nav-items {
+        display: none;
+    }
+}
+
+@media screen and (max-width:576px) {
+    html{
+        font-size: 12px;
+    }
+    nav img:first-child {
+        width: 12% !important;
+    }
+    .right-section{
+        width: 100%;
+    }
+    .discount-tag{
+        top: 50%;
+    }
+    .discount-tag img{
+        width: 68%;
+    }
+    .discount,.discount-percent{
+        left: 18%;
+    }
+    .discount-percent{
+        top: 20%;
+    }
+    .buttons{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .buttons > button{
+        margin: 1em 0;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .right-section div:first-child, body{
+        padding: 4px;
+    }
+    nav img:first-child{
+        width: 20% !important;
+    }
+    .discount-tag{
+        top: 50%;
+        right: 15%;
+    }
+}
+
+@media screen and (max-width:380px) {
+    nav img:last-child{
+        display: none;
+    }
+    .discount-tag{
+        top: 40%;
+        right: 12%;
+    }
+    .hamburger-menu{
+        display: block;
+        font-size: 2em;
+        font-weight: 700;
+    }
+}
